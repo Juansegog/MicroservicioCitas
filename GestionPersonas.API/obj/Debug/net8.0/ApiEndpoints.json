@@ -1,0 +1,142 @@
+[
+  {
+    "ContainingType": "GestionCitas.API.Controllers.CitasController",
+    "Method": "GetAllCitas",
+    "RelativePath": "api/Citas/GetAllCitas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[GestionCitas.Application.Comunes.CitaVM, GestionCitas.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionCitas.API.Controllers.CitasController",
+    "Method": "GetCitasMedico",
+    "RelativePath": "api/Citas/GetCitaMedico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionCitas.Application.Comunes.CitaVM",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionCitas.API.Controllers.CitasController",
+    "Method": "GetCitasPaciente",
+    "RelativePath": "api/Citas/GetCitaPaciente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pacienteId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionCitas.Application.Comunes.CitaVM",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionCitas.API.Controllers.CitasController",
+    "Method": "PatchEstadoCita",
+    "RelativePath": "api/Citas/PatchEstadoCita",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdCita",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "estadoCita",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionCitas.API.Controllers.CitasController",
+    "Method": "PostCrearCita",
+    "RelativePath": "api/Citas/PostCrearCita",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cita",
+        "Type": "GestionCitas.Application.CaracteristicasCita.Commands.ComandoCita.ComandoCita",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestionCitas.Application.Comunes.CitaVM",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestionPersonas.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestionPersonas.API.WeatherForecast, GestionCitas.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

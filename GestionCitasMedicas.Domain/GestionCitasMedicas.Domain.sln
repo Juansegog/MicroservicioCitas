@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionCitas.Domain", "GestionCitasMedicas.Domain\GestionCitas.Domain.csproj", "{FC5108D9-1B03-4BF5-A9CD-ED57AE0A7E41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionCitas.Application", "..\GestionPersonas.Application\GestionCitas.Application.csproj", "{DB2FE076-D284-4D70-A1A2-053547CDC0D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionCitas.API", "..\GestionPersonas.API\GestionCitas.API.csproj", "{99A8E35B-0411-4DC4-914F-779B5FF5C6EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestionCitas.Infraestructura", "..\GestionPersonas.Infraestructura\GestionCitas.Infraestructura.csproj", "{FBA3AF31-87F5-47D9-8CB2-8FEBAC945CBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0021B671-951F-4751-A8C8-B22D6D42A5C6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC5108D9-1B03-4BF5-A9CD-ED57AE0A7E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5108D9-1B03-4BF5-A9CD-ED57AE0A7E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5108D9-1B03-4BF5-A9CD-ED57AE0A7E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5108D9-1B03-4BF5-A9CD-ED57AE0A7E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2FE076-D284-4D70-A1A2-053547CDC0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2FE076-D284-4D70-A1A2-053547CDC0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2FE076-D284-4D70-A1A2-053547CDC0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2FE076-D284-4D70-A1A2-053547CDC0D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A8E35B-0411-4DC4-914F-779B5FF5C6EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A8E35B-0411-4DC4-914F-779B5FF5C6EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A8E35B-0411-4DC4-914F-779B5FF5C6EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A8E35B-0411-4DC4-914F-779B5FF5C6EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA3AF31-87F5-47D9-8CB2-8FEBAC945CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA3AF31-87F5-47D9-8CB2-8FEBAC945CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA3AF31-87F5-47D9-8CB2-8FEBAC945CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA3AF31-87F5-47D9-8CB2-8FEBAC945CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04669CBB-7E37-43AD-BC0C-3C29962006DD}
+	EndGlobalSection
+EndGlobal
