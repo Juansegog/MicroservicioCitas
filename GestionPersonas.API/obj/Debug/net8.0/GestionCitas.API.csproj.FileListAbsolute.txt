@@ -180,3 +180,4 @@ D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.
 D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.API\obj\Debug\net8.0\GestionCitas.API.pdb
 D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.API\obj\Debug\net8.0\GestionCitas.API.genruntimeconfig.cache
 D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.API\obj\Debug\net8.0\ref\GestionCitas.API.dll
+D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.API\obj\Debug\net8.0\GestionCitas.API.sourcelink.json

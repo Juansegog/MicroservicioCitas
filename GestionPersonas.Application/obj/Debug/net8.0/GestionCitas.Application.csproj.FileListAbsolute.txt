@@ -13,3 +13,4 @@ D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.
 D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.Application\obj\Debug\net8.0\refint\GestionCitas.Application.dll
 D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.Application\obj\Debug\net8.0\GestionCitas.Application.pdb
 D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.Application\obj\Debug\net8.0\ref\GestionCitas.Application.dll
+D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.Application\obj\Debug\net8.0\GestionCitas.Application.sourcelink.json

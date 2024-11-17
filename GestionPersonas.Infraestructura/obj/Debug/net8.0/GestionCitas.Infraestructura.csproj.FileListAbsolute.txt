@@ -15,3 +15,4 @@ D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.
 D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.Infraestructura\obj\Debug\net8.0\refint\GestionCitas.Infraestructura.dll
 D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.Infraestructura\obj\Debug\net8.0\GestionCitas.Infraestructura.pdb
 D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.Infraestructura\obj\Debug\net8.0\ref\GestionCitas.Infraestructura.dll
+D:\Entrevistas de Trabajo\Entrevista Inetum\ProyectoInetumCitas\GestionPersonas.Infraestructura\obj\Debug\net8.0\GestionCitas.Infraestructura.sourcelink.json

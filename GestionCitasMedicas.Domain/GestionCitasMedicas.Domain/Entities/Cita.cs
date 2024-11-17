@@ -15,24 +15,20 @@ namespace GestionCitas.Domain.Entities
 
         private Cita() { }
 
-        // Constructor privado para uso interno
-        private Cita(int id, int paciente, int medico, DateTime fecha, EstadoCita estadoCita, Lugar lugar)
-        {
-            if (fecha <= DateTime.Now)
-                throw new ArgumentException("La fecha debe ser futura", nameof(fecha));
-
-            Id = id;
-            Paciente = paciente;
-            Medico = medico;
-            Fecha = fecha;
-            EstadoActualCita = estadoCita;
-            Lugar = lugar ?? throw new ArgumentNullException(nameof(lugar));
-        }
 
         // Método de fábrica para crear una nueva cita
-        public static Cita Crear(int id, int paciente, int medico, DateTime fecha, EstadoCita estadoCita, Lugar lugar)
+        public static Cita CrearCita(int paciente, int medico, DateTime fecha, EstadoCita estadoCita, Lugar lugar)
         {
-            return new Cita(id, paciente, medico, fecha, estadoCita, lugar);
+            if (lugar == null)
+                throw new ArgumentNullException(nameof(lugar));
+            return new Cita()
+            {
+                Paciente = paciente,
+                Medico = medico,
+                Fecha = fecha,
+                EstadoActualCita = estadoCita,
+                Lugar = lugar
+            };
         }
 
         // Método para cambiar el estado de la cita

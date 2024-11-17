@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestionCitas.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a407728afdfe3364df57b93cd305e603ef6f0478")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestionCitas.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestionCitas.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
